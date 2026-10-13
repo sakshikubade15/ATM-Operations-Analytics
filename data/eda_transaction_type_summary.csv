@@ -1,0 +1,6 @@
+transaction_type,transaction_count,total_amount,average_amount
+Balance Inquiry,1442,25000.0,17.34
+Cash Deposit,510,4668000.0,9152.94
+Mini Statement,858,0.0,0.0
+Withdrawal,7190,28717000.0,3994.02
+,2,0.0,

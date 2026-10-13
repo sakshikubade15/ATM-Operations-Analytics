@@ -1,0 +1,8 @@
+sheet_name,rows,columns,missing_cells,duplicate_rows
+00_Data_Dictionary,22,4,0,0
+01_Raw_ATMs,100,5,0,0
+02_Raw_Transactions,10002,18,29464,0
+05_Cleaned_Transactions,10000,8,9443,0
+03_Raw_Cash_Refills,4344,4,3,0
+04_Raw_Maintenance,514,5,0,0
+05_Project_Guide,10,3,0,0

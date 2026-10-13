@@ -1,0 +1,31 @@
+-- ATM Operations Analytics: Starter DAX Measures
+-- Update table and column names to match your Power BI data model.
+
+Total Transactions =
+COUNTROWS(Transactions)
+
+Successful Transactions =
+CALCULATE(
+    [Total Transactions],
+    Transactions[status] = "Successful"
+)
+
+Failed Transactions =
+CALCULATE(
+    [Total Transactions],
+    Transactions[status] = "Failed"
+)
+
+Success Rate (%) =
+DIVIDE(
+    [Successful Transactions],
+    [Total Transactions],
+    0
+) * 100
+
+Failure Rate (%) =
+DIVIDE(
+    [Failed Transactions],
+    [Total Transactions],
+    0
+) * 100
